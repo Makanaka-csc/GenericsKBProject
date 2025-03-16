@@ -98,3 +98,4 @@ public class Statement implements Comparable<Statement> {
         return "Term: " + term + ", Score: " + score + ", Sentence: " + sentence;
     }
 }
+

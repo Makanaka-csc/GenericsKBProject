@@ -67,7 +67,7 @@ public class KnowledgeBase{//consists of various terms and statements
     /*method to update a statement
     */
     
-    public void UpdateStatement(String term, String sentence, double score){
+    public void updateStatement(String term, String sentence, double score){
         //checking if the statement is already existing
          for (int i = 0; i < size; i++) {            
             if (knowledgeBase[i].getTerm().equals(term)) {
@@ -115,24 +115,4 @@ public class KnowledgeBase{//consists of various terms and statements
         }
 
 }
-
-
-
-
-
-
-    
-
-
-
-    
-
-
-
-
-
-
-
-
-
 
